@@ -447,6 +447,7 @@ button:focus {
   top: 0;
   height: 121%;
   bottom: 0;
+  transition: 1s;
   z-index: -1;
   background-repeat:no-repeat;
   background-size:cover;
@@ -571,7 +572,7 @@ button:focus {
 }
 
 .banner_area .banner_inner .overlay {
-  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -2484,7 +2485,7 @@ h6 {
 }
 
 .generic-blockquote {
-  padding: 30px 50px 30px 30px;
+  padding: 0px 50px 30px 30px;
   background: #fff;
   border-left: 2px solid #f8b600;
 }
@@ -2641,7 +2642,7 @@ h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #f8b600;
+  color:#03dac6;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -3911,7 +3912,7 @@ h6 {
 /* About Area css
 ============================================================================================ */
 .about_inner .ab_left_text {
-  margin-top: 55px;
+  margin-top: 0px;
   padding-right: 65px;
 }
 
@@ -4046,7 +4047,7 @@ h6 {
 }
 
 .footer-bottom {
-  padding-top: 85px;
+  padding-top: 20px;
 }
 
 .footer-bottom .footer-text a {
@@ -4054,7 +4055,7 @@ h6 {
 }
 
 .footer-bottom .footer-social {
-  text-align: right;
+  text-align: left;
 }
 
 .footer-bottom .footer-social a {
